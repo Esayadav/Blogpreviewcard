@@ -1,0 +1,66 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 600px;
+    width: 500px;
+
+}
+
+main {
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin: 480px;
+    box-shadow: 5px 5px 0px 0px  Black;
+    
+}
+
+.abc {
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.abc img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+
+}
+
+h2 {
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: hsl(47, 88%, 63%);
+    margin-right: 280px;
+    padding-left: 10px;
+}
+
+#check {
+    color: hsl(0, 0%, 50%);
+    font-size: larger;
+    padding-right: 40px;
+}
+
+#photo {
+    display: flex;
+    align-items: center;
+}
+
+#photo img {
+    border-radius: 50%;
+}
+
+.profile-name {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
